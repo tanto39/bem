@@ -392,6 +392,7 @@ body {
 .advantage__text {
   color: #666;
   line-height: 1.6;
+  margin-bottom: 2rem;
 }
 
 /* Блок callback коллбэка */
