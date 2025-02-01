@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="./js/scripts.js" defer></script>
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
+    <title>КупиКота</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__fixed">
+        <div class="header__nav">
+          <a href="#" class="header__brand">КупиКота</a>
+
+          <nav class="nav">
+            <button class="nav__burger" aria-label="Открыть меню">
+              <span class="nav__burger-line"></span>
+              <span class="nav__burger-line"></span>
+              <span class="nav__burger-line"></span>
+            </button>
+
+            <ul class="nav__list">
+              <li class="nav__item">
+                <a href="#" class="nav__link" data-scroll-to="buy">Купить кота</a>
+              </li>
+              <li class="nav__item">
+                <a href="#" class="nav__link" data-scroll-to="sell">Продать кота</a>
+              </li>
+              <li class="nav__item">
+                <a href="#" class="nav__link" data-scroll-to="advantages">Преимущества</a>
+              </li>
+              <li class="nav__item">
+                <a href="#" class="nav__link" data-scroll-to="callback">Обратный звонок</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+
+      <section class="headinfo">
+        <div class="headinfo__content">
+          <h1 class="headinfo__title">КупиКота</h1>
+          <p class="headinfo__subtitle">Продажа и покупка котов от заводчиков</p>
+          <p class="headinfo__phone">+7(920)333-33-33</p>
+          <a href="#callback" class="button" data-scroll-to="callback">Написать нам</a>
+        </div>
+      </section>
+    </header>
+
+    <section class="section mix-bgcolor">
+      <div class="section__container">
+        <h2 class="section__title">КупиКота</h2>
+        <div class="cards">
+          <article class="card" data-scroll-to="buy">
+            <div class="card__content">
+              <h2 class="card__title">Купить кота</h2>
+              <p class="card__text">Большой выбор красивых котиков от проверенных заводчиков</p>
+              <p class="card__text">Породистые и домашние питомцы</p>
+            </div>
+            <div class="card__imgwrap">
+              <img src="./images/cat-info-1.png" alt="Кот" class="card__image" />
+            </div>
+          </article>
+
+          <article class="card" data-scroll-to="sell">
+            <div class="card__content">
+              <h2 class="card__title">Продать кота</h2>
+              <p class="card__text">Поможем найти новый дом для вашего питомца</p>
+              <p class="card__text">Профессиональное оформление документов</p>
+            </div>
+            <div class="card__imgwrap">
+              <img src="./images/cat-info-2.png" alt="Котенок" class="card__image" />
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" data-section="buy">
+      <div class="section__container">
+        <h2 class="section__title">Купить кота</h2>
+        <div class="content">
+          <div class="content__column">
+            <p>Породистые котята с документами от лучших заводчиков. Гарантия здоровья и профессиональная поддержка.</p>
+            <ul class="list">
+              <li class="list__item">Полный ветеринарный контроль</li>
+              <li class="list__item">Консультации по уходу</li>
+              <li class="list__item">Официальные документы</li>
+            </ul>
+            <a href="#" class="button content__button" data-scroll-to="callback">Купить кота</a>
+          </div>
+          <div class="content__column">
+            <img src="./images/cat-3.jpg" alt="Породистый кот" class="circle" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section mix-bgcolor" data-section="advantages">
+      <div class="section__container">
+        <h2 class="section__title">Наши преимущества</h2>
+        <div class="advantages">
+          <div class="advantage">
+            <img src="./images/house.svg" alt="Гарантия" class="advantage__icon" />
+            <h3 class="advantage__title">Гарантия здоровья</h3>
+            <p class="advantage__text">Полный ветеринарный контроль перед передачей</p>
+          </div>
+          <div class="advantage">
+            <img src="./images/cat.svg" alt="Породы" class="advantage__icon" />
+            <h3 class="advantage__title">35+ пород</h3>
+            <p class="advantage__text">Самое большое разнообразие в регионе</p>
+          </div>
+          <div class="advantage">
+            <img src="./images/question.svg" alt="Поддержка" class="advantage__icon" />
+            <h3 class="advantage__title">Поддержка 24/7</h3>
+            <p class="advantage__text">Консультации ветеринара и кинолога</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" data-section="sell">
+      <div class="section__container">
+        <h2 class="section__title">Продать кота</h2>
+        <div class="content">
+          <div class="content__column">
+            <p>Если у вашей кошки неожиданно родились котята, не спешите их топить, лучше отнесите нам.</p>
+            <ul class="list">
+              <li class="list__item">Оформим все документы</li>
+              <li class="list__item">Ветеринарное обследование</li>
+              <li class="list__item">После продажи кота выпейте чаю и съеште мягких французских булок.</li>
+            </ul>
+            <a href="#" class="button content__button" data-scroll-to="callback">Продать кота</a>
+          </div>
+          <div class="content__column">
+            <img src="./images/cat-4.jpg" alt="Породистый кот" class="circle" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section mix-bgcolor" data-section="callback">
+      <div class="section__container">
+        <h2 class="section__title">Заказать звонок</h2>
+        <div class="callback">
+          <div class="callback__left">
+            <img src="./images/cat-5.jpg" alt="Заказать звонок" class="circle" />
+            <p class="callback__descr">Не огорчай котика, закажи обратный звонок!</p>
+          </div>
+          <div class="callback__right">
+            <form class="form">
+              <div class="form__group">
+                <label class="form__label">Ваше имя:</label>
+                <input type="text" class="form__input" placeholder="Наталья" />
+              </div>
+              <div class="form__group">
+                <label class="form__label">Ваш телефон:</label>
+                <input type="tel" class="form__input" placeholder="+7 (999) 999-99-99" />
+              </div>
+              <div class="form__group">
+                <label class="form__label">Сообщение:</label>
+                <textarea class="form__input"></textarea>
+              </div>
+              <button type="submit" class="button form__button">Отправить сообщение, мяу!</button>
+              <div class="form__message">Сообщение отправлено!</div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer__container">
+        <div class="footer__column">
+          <p class="footer__line">КупиКота</p>
+          <p class="footer__line">+7(920)333-33-33</p>
+          <p class="footer__line">info@kupikota.ru</p>
+        </div>
+        <div class="footer__column">
+          <ul class="footer__links">
+            <li class="footer__li">
+              <a href="#" class="footer__link" data-scroll-to="buy">Купить кота</a>
+            </li>
+            <li class="footer__li">
+              <a href="#" class="footer__link" data-scroll-to="sell">Продать кота</a>
+            </li>
+            <li class="footer__li"> 
+              <a href="#" class="footer__link" data-scroll-to="advantages">Преимущества</a>
+            </li>
+            <li class="footer__li">
+              <a href="#" class="footer__link" data-scroll-to="callback">Заказать обратный звонок</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__column">
+          <p class="footer__line">© 2025 КупиКота. </p>
+          <p class="footer__line">Все права защищены</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
